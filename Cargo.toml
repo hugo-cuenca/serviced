@@ -1,0 +1,18 @@
+[package]
+name = "serviced"
+version = "0.0.0"
+description = "Flexible service manager with dependency support"
+authors = ["Hugo Cuenca <hugo.cuenca.arana@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/hugo-cuenca/serviced/"
+repository = "https://github.com/hugo-cuenca/serviced/"
+license = "MITNFA"
+keywords = ["service", "supervision", "init", "system"]
+exclude = [
+    ".idea/*",
+]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
